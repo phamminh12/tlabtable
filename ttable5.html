@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="ttable5.css">
+    <title>The Table (Final)</title>
+</head>
+
+<body>
+    <div class="table">
+        <div class="Control">
+            <div class="new">
+                <i class="fa-solid fa-plus" style="font-size: 16px;"></i> 
+                New
+            </div>
+            <div class="del">
+                <i class="fa-solid fa-trash" style="font-size: 16px; color: white"></i>
+                Delete
+            </div>
+            <div class="imp">
+                <i class="fa-solid fa-upload" style="font-size: 16px;"></i>
+                Import
+            </div>
+            <div class="exp">
+                <i class="fa-solid fa-upload" style="font-size: 16px;"></i>
+                Export
+            </div>
+        </div>
+        
+        
+        <table class="table--main">
+            <thead class="thehead">
+                <h2 class="basics">Manage Products</h2>
+                <div class="title">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" class="search" placeholder="Search...">
+            
+                </div>
+            </thead>
+            <thead class="head">
+                <th class="header"><input type="checkbox"></th>
+                <th class="header">Code <i class="fa-solid fa-up-down"></i></th>
+                <th class="header">Name <i class="fa-solid fa-up-down"></i></th>
+                <th class="header">Image </th>
+                <th class="header">Price <i class="fa-solid fa-up-down"></i></th>
+                <th class="header">Category <i class="fa-solid fa-up-down"></i></th>
+                <th class="header">Reviews <i class="fa-solid fa-up-down"></i></th>
+                <th class="header">Status <i class="fa-solid fa-up-down"></i></th>
+                <th class="header"></th>
+            </thead>
+            <tbody>
+                <tr class="row">
+                    <th><input type="checkbox"></th>
+                    <td>nvklal433</td>
+                    <td>Black Watch</td>
+                    <td>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7XxmcTSYlezpKIpw1XPE_PFeyeAhM2U-2MA&usqp=CAU" alt="img">                   
+                    <td>$72.00</td>
+                    <td>Accessories</td> 
+                    <td>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih--o" class="fa-regular fa-star" style="font-size:14px; color: blueviolet"></i>
+                    </td>
+                    <td>
+                        <b class="qua" style="font-size:12px;">INSTOCK</b>
+                    </td>
+                    <td>
+                        <i id="ih" class="fa-solid fa-square-pen" style="font-size:36px; color: rgb(150,250,200); "></i>
+                        &ensp;
+                        <i id="ih" class="fa-solid fa-trash" style="font-size: 34px; color: rgb(180,180,0)"></i>
+
+                    </td>
+                </tr>
+                <tr class="row">
+                    <th><input type="checkbox"></th>
+                    <td>zz21cz3c1</td>
+                    <td>Blue Band</td>
+                    <td>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7XxmcTSYlezpKIpw1XPE_PFeyeAhM2U-2MA&usqp=CAU" alt="img">                 
+                    <td>$79.00</td>
+                    <td>Fitness</td>
+                    <td>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih--o" class="fa-regular fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih--o" class="fa-regular fa-star" style="font-size:14px; color: blueviolet"></i>
+                    </td>
+                        <td>
+                        <b class="pro" style="font-size:12px;">LOWSTOCK</b>
+                    </td>
+                    <td>
+                        <i id="ih" class="fa-solid fa-square-pen" style="font-size:36px; color: rgb(150,250,200); "></i>
+                        &ensp;
+                        <i id="ih" class="fa-solid fa-trash" style="font-size: 34px; color: rgb(180,180,0)"></i>
+
+                    </td>
+                    
+                </tr>
+                <tr class="row">
+                    <th><input type="checkbox"></th>
+                    <td>244wgerg2</td>
+                    <td>Blue T-Shirt</td>
+                    <td>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7XxmcTSYlezpKIpw1XPE_PFeyeAhM2U-2MA&usqp=CAU" alt="img">
+                    <td>$29.00</td>
+                    <td>Clothing</td>
+                    <td>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                    </td>
+                    <td>
+                        <b class="qua" style="font-size:12px;">INSTOCK</b>
+                    </td>
+                    <td>
+                        <i id="ih" class="fa-solid fa-square-pen" style="font-size:36px; color: rgb(150,250,200); "></i>
+                        &ensp;
+                        <i id="ih" class="fa-solid fa-trash" style="font-size: 34px; color: rgb(180,180,0)"></i>
+
+                    </td>
+                </tr>
+                <tr class="row">
+                    <th><input type="checkbox"></th>
+                    <td>h456wer53</td>
+                    <td>Bracelet</td>
+                    <td>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7XxmcTSYlezpKIpw1XPE_PFeyeAhM2U-2MA&usqp=CAU" alt="img">                 
+                    <td>$15.00</td>
+                    <td>Accessories</td>
+                    <td>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih--o" class="fa-regular fa-star" style="font-size:14px; color: blueviolet"></i>
+                    </td>
+                        <td>
+                        <b class="qua" style="font-size:12px;">INSTOCK</b>
+                    </td>
+                    <td>
+                        <i id="ih" class="fa-solid fa-square-pen" style="font-size:36px; color: rgb(150,250,200); "></i>
+                        &ensp;
+                        <i id="ih" class="fa-solid fa-trash" style="font-size: 34px; color: rgb(180,180,0)"></i>
+
+                    </td>
+                </tr>
+                <tr class="row">
+                    <th><input type="checkbox"></th>
+                    <td>av2231fwg</td>
+                    <td>Brown Purse<td>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7XxmcTSYlezpKIpw1XPE_PFeyeAhM2U-2MA&usqp=CAU" alt="img">
+                    <td>$120.00</td>
+                    <td>Accessories</td>
+                    <td>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih--o" class="fa-regular fa-star" style="font-size:14px; color: blueviolet"></i>
+                    </td>
+                        <td>
+                        <b class="unq" style="font-size:12px;">OUTOFSTOCK</b>
+                    </td>
+                    <td>
+                        <i id="ih" class="fa-solid fa-square-pen" style="font-size:36px; color: rgb(150,250,200); "></i>
+                        &ensp;
+                        <i id="ih" class="fa-solid fa-trash" style="font-size: 34px; color: rgb(180,180,0)"></i>
+
+                    </td>
+                </tr>
+                <tr class="row">
+                    <th><input type="checkbox"></th>
+                    <td>bib36pfvm</td>
+                    <td>Chakra Bracelet</td>
+                    <td>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7XxmcTSYlezpKIpw1XPE_PFeyeAhM2U-2MA&usqp=CAU" alt="img">
+                    <td>$32.00</td>
+                    <td>Accessories</td>
+                    <td>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih" class="fa-solid fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih--o" class="fa-regular fa-star" style="font-size:14px; color: blueviolet"></i>
+                        <i id="ih--o" class="fa-regular fa-star" style="font-size:14px; color: blueviolet"></i>
+                    </td>
+                        <td>
+                        <b class="pro" style="font-size:12px;">LOWSTOCK</b>
+                    </td>
+                    <td>
+                        <i id="ih" class="fa-solid fa-square-pen" style="font-size:36px; color: rgb(150,250,200); "></i>
+
+                        &ensp;
+                        <i id="ih" class="fa-solid fa-trash" style="font-size: 34px; color: rgb(180,180,0)"></i>
+
+                    </td>
+                </tr>
+                <!-- <tr class="row">
+                    <th><input type="checkbox"></th>
+                    <td>Mitsue Tollner</td>
+                    <td>
+                        <img class="img--ct" src="data:image/png;base64,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" 
+                            alt="Paraguay">
+                        Paraguay</td>
+                    <td>
+                        <img class="avt" src="https://event.mediacdn.vn/2020/9/11/bray-1-15998125670871089915520.png" alt="Avartar">
+                        Ivan Malgahaes</td>
+                    <td>
+                        <b class="ren">
+                            RENEWAL
+                        </b>
+                    </td>
+                </tr>
+                <tr class="row">
+                    <th><input type="checkbox"></th>
+                    <td>Leota Dilliard</td>
+                    <td>
+                        <img class="img--ct" src="data:image/png;base64,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" 
+                            alt="Serbia">
+                        Serbia</td>
+                    <td>
+                        <img class="avt" src="https://event.mediacdn.vn/2020/9/11/bray-1-15998125670871089915520.png" alt="Avartar">
+                        Onyama Limba</td>
+                    <td>
+                        <b class="ren">
+                            RENEWAL
+                        </b>
+                    </td>
+                </tr>
+                <tr class="row">
+                    <th><input type="checkbox"></th>
+                    <td>Sage Wieser</td>
+                    <td>
+                        <img class="img--ct" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVDB_9ZA9Kw6oWSnwtT1iS07kE_b9m0aOv3w&usqp=CAU"
+                            alt="Egypt">
+                        Egypt
+                    </td>
+                    <td>
+                        <img class="avt" src="https://event.mediacdn.vn/2020/9/11/bray-1-15998125670871089915520.png" alt="Avartar">
+                        Ivan Malgahaes</td>
+                    <td>
+                        <b class="unq">
+                            UNQUALIFIED
+                        </b>
+                    </td>
+                </tr>
+                <tr class="row">
+                    <th><input type="checkbox"></th>
+                    <td>Kris Marrier</td>
+                    <td><img class="img--ct" src="data:image/png;base64,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" alt="Mexico">
+                        Mexico</td>
+                    <td>
+                        <img class="avt" src="https://event.mediacdn.vn/2020/9/11/bray-1-15998125670871089915520.png" alt="Avartar">
+                        Onyama Limba</td>
+                    <td>
+                        <b class="pro">
+                            PROPOSAL
+                        </b>
+                    </td>
+                </tr> -->
+
+            </tbody>
+            <thead>
+                <!-- <td>
+                    <div class="icon">
+                        <i id="" class="fa-solid fa-rotate-right"></i>
+                    </div>
+                </td> -->
+                <td class="phantrang" colspan="9">
+
+                    <a class="active">Showing 1 to 10 of 200</a>
+                    <a> << </a>
+                    <a>< </a>
+                    <a>1</a>
+                    <a>2</a>
+                    <a>3</a>
+                    <a>4</a>
+                    <a>5</a>
+                    <a>></a>
+                    <a>>></a>
+                    <div class="dropdown">
+                        <button class="nut">10 <i class="fa fa-caret-down"></i></button>
+                        <div class="noidung">
+                            <a class="" href="#">10</a>
+                            <a class="" href="#">20</a>
+                            <a class="" href="#">30</a>
+                        </div>
+                    </div>
+                </td>
+                <!-- <td>
+                    <div class="icon">
+                        <i id="icon" class="fa-solid fa-cloud"></i>
+                    </div>
+                </td> -->
+            </thead>
+        </table>
+    </div>
+</body>
+
+</html>

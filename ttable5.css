@@ -1,0 +1,367 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    background-color: silver;
+    height: 1000px;
+}
+.title
+{
+    position:absolute;
+    top: 20%;
+    right: 5%;
+    border: 1px solid silver;
+    padding: 5px;
+    border-radius: 10px;
+}
+#table
+{
+    min-width: 300px;
+    max-width: 350px;
+    align-items: center;
+    background-color: white;
+}
+.table
+{
+    position: absolute;
+    top: 12%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 800px;
+    background-color: white;
+    
+}
+.basics
+{
+    position:absolute;
+    top: 20%;
+    left: 5%;
+    padding: 5px;
+}
+.search
+{
+    border: white;
+}
+img{
+    height: 60px;
+    width: 100px;
+    box-shadow: 5px 5px 5px silver;
+}
+.table--main
+{
+    position: absolute;
+    top: 24%;
+    bottom: 10%;
+    left: 4.5%;
+    right: 0%;
+}
+.thehead
+{
+    border-top: 1px solid silver;
+    font-size: 14px;
+    margin-top: 10px;
+}
+table
+{
+    background-color: white;
+    border-collapse: collapse;
+    text-align: left;
+    width: 90%;
+    min-height:300px;
+    margin: 10px;
+    
+}
+.Control
+{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 70px;
+    border: 2px solid silver; 
+    margin-bottom: 10px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px;
+}
+.new
+{
+    position: absolute;
+    top: 18%;
+    left: 2%;
+    font-weight: 600;
+    font-size: 16px;
+    width: 8%;
+    height: 60%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+}
+.del
+{
+    position: absolute;
+    top: 18%;
+    left: 11%;
+    font-weight: 600;
+    font-size: 16px;
+    width: 8%;
+    height: 60%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}
+.imp
+{
+    position: absolute;
+    top: 18%;
+    right: 12%;
+    font-weight: 600;
+    font-size: 16px;
+    width: 9%;
+    height: 60%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+}
+.exp
+{
+    position: absolute;
+    top: 18%;
+    right: 2%;
+    font-weight: 600;
+    font-size: 16px;
+    width: 9%;
+    height: 60%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: rgb(240, 80, 240);
+    border-radius: 10px;
+    color: white;
+}
+.new:hover
+{
+    background-color:burlywood;
+    cursor: pointer;   
+}
+.del:hover
+{
+    background-color:burlywood;
+    cursor: pointer;   
+}
+.imp:hover
+{
+    background-color:burlywood;
+    cursor: pointer;   
+}
+.exp:hover
+{
+    background-color:burlywood;
+    cursor: pointer;   
+}
+thead
+{
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+.head
+{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 40px 40px 40px 80px;
+    background-color: whitesmoke;
+    height: 20px;
+    width: 40px;
+}
+
+
+/* .column1
+{
+    padding-right: 200px;
+}
+.column2
+{
+    padding-right: 200px;
+}
+.column3
+{
+    padding-right: 200px;
+}
+.column4
+{
+    padding-right: 200px;
+} */
+tbody > tr
+{
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    width: 650px;
+}
+/* .row:hover
+{
+    background-color:#ddd;
+    cursor: pointer;
+} */
+.unq
+{
+    padding: 4px;
+    border: 1px solid rgb(254, 254, 254);
+    background-color: rgb(252, 154, 154);
+    color: rgb(166, 1, 1);
+    border-radius: 4px;
+}
+.pro
+{
+    padding: 4px;
+    border: 1px solid rgb(254, 254, 254); 
+    border-radius: 4px;
+    background-color: rgb(238, 250, 150);
+    color: rgb(117, 117, 0);
+}
+
+.ren
+{
+    padding: 4px;
+    border: 1px solid rgb(254, 254, 254); 
+    border-radius: 4px;
+    background-color: rgb(247, 150, 250);
+    color: rgb(144, 1, 166);
+}
+.qua
+{
+    padding: 4px;
+    border: 1px solid rgb(254, 254, 254); 
+    border-radius: 4px;
+    background-color: rgb(150, 250, 182);
+    color: rgb(1, 166, 9);
+}
+.img--ct
+{
+    width: 24px;
+    height: 18px;
+    border-radius: 2px;
+}
+.avt
+{
+    width: 18px;
+    height: 20px;
+    border-radius: 20px;
+}
+#ih:hover
+{
+    color: whitesmoke;
+    cursor: pointer;
+}
+#ih--o:hover
+{
+    color:violet;
+    cursor: pointer;
+}
+td,th
+{
+    padding: 10px 10px 10px 20px;
+}
+
+.phantrang
+{
+    max-height: 10px;
+    text-align: center;
+}
+.phantrang a
+{
+    font-size: 16px;
+    padding: 8px 10px;
+}
+#icon
+{
+    
+    position: absolute;
+    right:0%;
+}
+a
+{
+    text-decoration: none;
+    /* transition: background-color .3s; */
+}
+
+a:hover:not(.active) 
+{
+    background-color: #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.phantrang a.active 
+{
+    background-color: white;
+    color: silver;
+    border-radius: 50%;
+}
+.icon
+{
+    font-size: 12px;
+    color: rgb(116, 116, 240);
+    padding:0;
+}
+.btn 
+{
+    padding: 4px;
+}
+.btn:hover
+{
+    background-color:#ddd;
+    cursor: pointer;
+}
+.icon:hover
+{
+    background-color:white;
+    cursor: pointer;
+}
+.fa-solid
+{
+    font-size: 10px;
+}
+.dropdown{
+    position: absolute;
+    top: 95%;
+    right: 20%;
+}
+.noidung{
+    /*Ẩn nội dung các đường dẫn*/
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .noidung a {
+    color: black;
+    padding: 6px 0px;
+    text-decoration: none;
+    display: block;
+  }
+/* thay đổi màu background khi hover vào đường dẫn */
+.noidung a:hover 
+ {background-color: #ddd;}
+ /* hiển thị nội dung dropdown khi hover */
+  .dropdown:hover .noidung 
+  {display: block;}
+ /* Thay đổi màu background cho nút khi được hover */
+  .dropdown:hover .nut 
+  {background-color: #00bfff;}
